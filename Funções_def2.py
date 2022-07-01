@@ -1,10 +1,10 @@
 
-# def dumb():
-#     return ('tobas','filho')
+def dumb():
+    return ('tobas','filho')
 
-# var = dumb()
+var = dumb()
 
-# print(var, type(var))
+print(var, type(var))
 
 
 

@@ -99,6 +99,7 @@ union - une
 intersection & - todos os elementos presentes nos dois sets
 difference - elementos apenas no set da esquerda
 symmetric_diference ^ - elementos que estao nos dois sets, mas nao em ambos
+List Comprehension = List Comprehension foi concebida na PEP 202 e é uma forma concisa de criar e manipular listas.
 
 
 """
