@@ -101,5 +101,6 @@ difference - elementos apenas no set da esquerda
 symmetric_diference ^ - elementos que estao nos dois sets, mas nao em ambos
 List Comprehension = List Comprehension foi concebida na PEP 202 e é uma forma concisa de criar e manipular listas.
 
+Objeto iteravel - no python um objeto e considerado iteravel se ele implementa o metodo "__inter__", permitindo, por exemplo, que um loop for seja executado sobre ele.
 
 """
