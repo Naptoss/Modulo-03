@@ -9,4 +9,6 @@ lista = [
 ]
 
 d1 = {y: x for x, y in lista}
+        # aqui esta sendo alterando a ordem de exibição da lista
+
 print(d1)
