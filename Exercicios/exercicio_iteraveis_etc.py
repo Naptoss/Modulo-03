@@ -6,11 +6,9 @@ carrinho.append(("Produto 3", 50))
 carrinho.append(("Produto 4", 60))
 
 print(carrinho)
-# aqui ele ira exibir os 4 produtos em seguencia seus valores determinados
 
-compra = sum([(p[1]) for p in carrinho])
-print(compra)
-
+comp = sum([(p[1]) for p in carrinho])
+print(comp)
 
 """
 FUNÇÃO SUM() EM PYTHON
