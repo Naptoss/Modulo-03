@@ -50,7 +50,7 @@ Enumerate - retorna um objeto iterável # iteráveis
 
 def - definir um parametro 
 return - retornar o valor
-*args - definido como um valor x pela comunidade
+ *args - definido como um valor x pela comunidade
 **kwargs - procura por uma key
 Tuplas - a tupla nao consegue editar a lista 
 lambda - função anonima, pode ser usada para organizar lista e etc; 
