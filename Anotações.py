@@ -103,4 +103,10 @@ List Comprehension = List Comprehension foi concebida na PEP 202 e é uma forma 
 
 Objeto iteravel - no python um objeto e considerado iteravel se ele implementa o metodo "__inter__", permitindo, por exemplo, que um loop for seja executado sobre ele.
 
+Combinations - Permutations e Product - Itertools
+Combinação - ordem não importa
+Permutação - Ordem Importa 
+Ambos não repetem valores unicos
+Produto - Ordem importa e repete valores unicos
+
 """
