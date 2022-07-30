@@ -1,5 +1,5 @@
 try:
-    a = []
+    a = {}
     print(a[1])
 except NameError as erro:
     print('Erro de Name', erro)
@@ -12,3 +12,4 @@ except IndexError as erro:
 
 except Exception as erro:
     print('Error inesperado')
+    # Aqui ele vai tratar qualquer tipo de erro nao categorizado
