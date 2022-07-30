@@ -1,6 +1,6 @@
 from dados import produtos, pessoas, lista
 
-precos = map(lambda p: p['preco'], produtos)
+precos = list(map(lambda p: p['preco'], produtos[0]))
 
 for preco in precos:
     print(preco)
