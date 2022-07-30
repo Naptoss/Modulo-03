@@ -1,6 +1,5 @@
 try:
-    a = {}
-    print(a[1])
+    a = 1/0
 except NameError as erro:
     print('Erro de Name', erro)
     # Ao retornar o erro de NameError, ele retorna o que esta no print
@@ -13,3 +12,10 @@ except (IndexError, KeyError) as erro:
 except Exception as erro:
     print('Error inesperado')
     # Aqui ele vai tratar qualquer tipo de erro nao categorizado
+else:
+    pass
+
+finally:
+    a = ''
+
+print(a)
