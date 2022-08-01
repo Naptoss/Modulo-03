@@ -16,7 +16,7 @@ def converte_numero(valor):
 while True:  # aqui esta o laço
     numero = converte_numero(input("Digite um numero: "))
 
-    if numero is not None:  # aqui ele verifica se o numero e valido, se for ele multiplica por 5
-        print(numero*5)
+    if numero is None:  # aqui ele verifica se o numero esta valido para o calculo
+        print("Error: isso não e um numero")
     else:
-        print("Isso nao e um numero")
+        print(numero * 5)
