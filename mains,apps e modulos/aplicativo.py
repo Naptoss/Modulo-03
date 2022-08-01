@@ -1,3 +1,8 @@
-import criando_modulo
+from criando_modulo import multiplicacao, PI
+from outro import fala_oi
+print(PI)
 
-print(criando_modulo.PI)
+lista = [2, 4]
+print(multiplicacao(lista))
+
+fala_oi()
